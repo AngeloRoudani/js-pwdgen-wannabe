@@ -2,13 +2,18 @@
 poi chiedi il suo cognome,
 poi chiedi il suo colore preferito
 Infine scrivi sulla pagina nomecognomecolorepreferito23*/
+document.getElementById("myBtn").onclick = myObject;
 
-const userName = prompt('insersci nome');
+    const firstName = prompt('insersci nome');
 
-const userSurname = prompt('inserisci cognome');
+    const userSurname = prompt('inserisci cognome');
+    
+    const userColor = prompt('inserisci colore preferito');
+    
+    const passNumber = '23';
 
-const userColor = prompt('inserisci colore preferito');
+function myObject (firstName, userSurname, userColor) {
+    
+    document.getElementById('password').innerHTML = "La Password è:" + firstName + userSurname + userColor + passNumber;
+}
 
-const passNumber = '23';
-
-document.getElementById('password').innerHTML = `La Password è: ${userName}${userSurname}${userColor}${passNumber}`;
