@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ms_background {
+    background-color: rgb(44, 43, 43);
+}
+
+.ms_card {
+    width: 400px;
+    margin-top: 200px;
+    background-color: rgb(167, 165, 165);
+}
